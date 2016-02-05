@@ -1,0 +1,14 @@
+<div class='line'>
+  <p>{{include.stop}}</p>
+  {% if include.connections %}
+    {% capture connections %}
+      {{include.connections | split: ',' }}
+    {% endcapture %}
+    {{include.connections }}
+    <ul class="connection">
+      {% for connection in connections %}
+      <li class="connection-bus">{{connection}}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>

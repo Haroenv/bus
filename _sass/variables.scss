@@ -1,0 +1,23 @@
+$dark: blue;
+$font: Din, sans-serif;
+
+@font-face {
+  font-family: Din;
+  src: url(/fonts/Din/DIN-Regular-webfont.woff) format('woff');
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: Din;
+  src: url(/fonts/Din/din-medium.woff) format('woff');
+  font-weight: 500;
+  font-style: normal
+}
+
+@font-face {
+  font-family: Din;
+  src: url(/fonts/Din/DIN-Bold-webfont.woff) format('woff');
+  font-weight: 700;
+  font-style: normal
+}
