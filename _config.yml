@@ -10,3 +10,4 @@ color: '#A3A3A3'
 css: src/style.css
 scripts: #src/main.js
 favicon: src/favicon.png
+development: true
