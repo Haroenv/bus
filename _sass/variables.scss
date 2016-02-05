@@ -1,23 +1,25 @@
-$dark: blue;
+$dark: #191f26;
+$light: white;
+$accent: red;
 $font: Din, sans-serif;
 
 @font-face {
   font-family: Din;
-  src: url(/fonts/Din/DIN-Regular-webfont.woff) format('woff');
+  src: url(/fonts/Din/DIN-Regular.woff) format('woff');
   font-weight: 400;
-  font-style: normal
+  font-style: normal;
 }
 
 @font-face {
   font-family: Din;
-  src: url(/fonts/Din/din-medium.woff) format('woff');
+  src: url(/fonts/Din/DIN-Medium.woff) format('woff');
   font-weight: 500;
-  font-style: normal
+  font-style: normal;
 }
 
 @font-face {
   font-family: Din;
-  src: url(/fonts/Din/DIN-Bold-webfont.woff) format('woff');
+  src: url(/fonts/Din/DIN-Bold.woff) format('woff');
   font-weight: 700;
-  font-style: normal
+  font-style: normal;
 }
