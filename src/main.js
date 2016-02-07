@@ -3,12 +3,14 @@
 ---
 
 var notification = document.createElement('audio');
-notification.src = 'src/notification.mp3'
+notification.src = '{{site.url}}/src/notification.mp3'
 
 var stopButton = document.getElementsByClassName('tracker__stop')[0];
-stopButton.addEventListener('click',function(){
-  pressButton();
-});
+if (stopButton) {
+  stopButton.addEventListener('click',function(){
+    pressButton();
+  });
+};
 
 var pressButton = function() {
   stopButton.classList.add('tracker__stop--enquired');
