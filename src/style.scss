@@ -28,3 +28,20 @@ html:before {
   border-bottom-left-radius: $radius;
 }
 // {% endif %}
+
+
+.connections__item--boat:before {
+  background-image: url('data:image/svg+xml;utf8,#{'{% include icons/boat.svg %}'}');
+}
+.connections__item--metro:before {
+  background-image: url('data:image/svg+xml;utf8,#{'{% include icons/metro.svg %}'}');
+}
+.connections__item--bus:before {
+  background-image: url('data:image/svg+xml;utf8,#{'{% include icons/bus.svg %}'}');
+}
+.connections__item--train:before {
+  background-image: url('data:image/svg+xml;utf8,#{'{% include icons/train.svg %}'}');
+}
+.connections__item--tram:before {
+  background-image: url('data:image/svg+xml;utf8,#{'{% include icons/tram.svg %}'}');
+}
