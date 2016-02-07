@@ -1,0 +1,17 @@
+.tracker {
+  &__stop {
+    background-color: $light;
+    border: 0;
+    font-family: $font;
+    font-size: 2em;
+    padding: 1em;
+
+
+    &--enquired {
+      background-color: $accent;
+    }
+  }
+  &__line {
+
+  }
+}

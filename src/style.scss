@@ -12,18 +12,18 @@ $site-color: #{'{{site.color}}'};
         'variables',
         'base',
         'line',
-        'stop';
+        'tracker';
 
 
 // {% if site.development %}
 html:before {
   content: 'development';
-  color: red;
+  color: $accent;
   position: fixed;
   top: 0;
   right: 0;
-  border-left: 1px solid red;
-  border-bottom: 1px solid red;
+  border-left: 1px solid $accent;
+  border-bottom: 1px solid $accent;
   padding: .2em;
   border-bottom-left-radius: $radius;
 }
