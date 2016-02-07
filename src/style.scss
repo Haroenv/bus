@@ -7,6 +7,24 @@
 // variables from the site need to be declared in the main file
 $site-color: #{'{{site.color}}'};
 
-@import 'variables',
+
+@import 'reset',
+        'variables',
         'base',
-        'line';
+        'line',
+        'stop';
+
+
+// {% if site.development %}
+html:before {
+  content: 'development';
+  color: red;
+  position: fixed;
+  top: 0;
+  right: 0;
+  border-left: 1px solid red;
+  border-bottom: 1px solid red;
+  padding: .2em;
+  border-bottom-left-radius: $radius;
+}
+// {% endif %}
