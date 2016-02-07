@@ -1,7 +1,12 @@
 ---
 # comment for jekyll
 ---
+
 @charset "UTF-8";
+
+// variables from the site need to be declared in the main file
+$site-color: #{'{{site.color}}'};
+
 @import 'variables',
         'base',
         'line';

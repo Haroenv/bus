@@ -6,9 +6,11 @@ author:
 title: bus tracker
 description: a tracker for the location of a bus
 url: https://haroen.me/bus
-color: '#A3A3A3'
+color: '#191f26'
 css: src/style.css
 scripts: #src/main.js
 favicon: src/favicon.png
 development: true
 analytics: UA-27277115-3
+sass:
+  style: :nested
