@@ -5,8 +5,8 @@ author:
   twitter: '@haroenv'
 title: bus tracker
 description: a tracker for the location of a bus
-# url: https://haroen.me/bus
-url: http://localhost:4000
+url: https://haroen.me/bus
+# url: http://localhost:4000
 color: '#191f26'
 css: /src/style.css
 scripts: ['/src/main.js']
