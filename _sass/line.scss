@@ -15,10 +15,10 @@
 
     &:before {
       content: '';
-      display: inline-block;
       width: 100%;
       height: .8em;
-      display: inline-block;
+      display: block;
+      float: left;
       background-size: contain;
       background-repeat: no-repeat;
       background-position: right center
