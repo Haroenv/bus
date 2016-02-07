@@ -7,7 +7,7 @@
       {% for connection in connections %}
       {% assign type = {{connection}} | split: '=' | last %}
       {% assign number = {{connection}} | split: '=' | first %}
-      <li class="connections__item--{{type}}">{{number}}</li>
+      <li class="connections__item connections__item--{{type}}">{{number}}</li>
       {% endfor %}
     </ul>
   {% endif %}

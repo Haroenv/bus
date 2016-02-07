@@ -8,7 +8,7 @@
   padding-left: 0;
   display: flex;
 
-  [class|=connections__item] {
+  &__item {
     list-style-type: none;
     padding: .2em;
     font-weight: 700;
@@ -25,3 +25,5 @@
     }
   }
 }
+
+@import 'icons';
