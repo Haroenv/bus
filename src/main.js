@@ -7,7 +7,17 @@ notification.src = 'src/notification.mp3'
 
 var stopButton = document.getElementsByClassName('tracker__stop')[0];
 stopButton.addEventListener('click',function(){
-  this.classList.toggle('tracker__stop--enquired');
-  // play sound
-  notification.play();
+  pressButton();
 });
+
+var pressButton = function() {
+  stopButton.classList.add('tracker__stop--enquired');
+  stopButton.disabled = true;
+  notification.play();
+}
+
+// if stop has passed: stop being enquired
+var resetButton = function() {
+  stopButton.classList.remove('tracker__stop--enquired');
+  stopButton.disabled = false;
+}

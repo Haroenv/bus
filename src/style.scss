@@ -29,7 +29,7 @@ html:before {
 }
 // {% endif %}
 
-
+//find a way to do this in a different file
 .connections__item--boat:before {
   background-image: url('data:image/svg+xml;utf8,#{'{% include icons/boat.svg %}'}');
 }

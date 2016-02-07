@@ -1,6 +1,18 @@
 .stops {
-  [class|=stops__item] {
+  //margin for the stripe
+  margin-left: 2.5rem;
+  padding: .4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  // - height of button
+  height: calc(100vh - 6rem);
 
+  &__item {
+
+    p {
+      font-size: 1.6em;
+    }
   }
 }
 
@@ -26,4 +38,4 @@
   }
 }
 
-@import 'icons';
+// @import 'icons';

@@ -16,8 +16,9 @@
     font-size: 2em;
     padding: .75em;
     color: $light;
+    user-select: none;
 
-    &:active {
+    &:active:not(:disabled) {
       color: $accent;
     }
 
