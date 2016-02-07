@@ -1,7 +1,14 @@
 ---
 layout: default
 ---
-<h1>Test</h1>
-{% for i in (1..5) %}
-  {% include line.html stop="Jernbantorget" connections="25=bus,R71=train,3=tram,10=boat,=spot" %}
-{% endfor %}
+
+<div class="stops">
+{% include line.html stop="Jernbantorget" connections="25=bus,R71=train,3=tram" %}
+{% include line.html stop="Aker Brygge" connections="10=bus,1=tram,2=boat" %}
+{% include line.html stop="A stop" connections="25=bus,3=tram,10=boat" %}
+</div>
+
+<div class="tracker">
+  <div class="tracker__stripe"></div>
+  <button class="tracker__stop">Stop</button>
+</div>

@@ -1,4 +1,4 @@
-<div class='line'>
+<div class='stops__item'>
   <p>{{include.stop}}</p>
   {% if include.connections %}
     {% assign connections = {{include.connections}} | split: ',' %}
@@ -7,7 +7,7 @@
       {% for connection in connections %}
       {% assign type = {{connection}} | split: '=' | last %}
       {% assign number = {{connection}} | split: '=' | first %}
-      <li class="connection-{{type}}">{{number}}</li>
+      <li class="connections__item--{{type}}">{{number}}</li>
       {% endfor %}
     </ul>
   {% endif %}
