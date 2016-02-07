@@ -1,16 +1,26 @@
 .tracker {
   &__stop {
-    background-color: $light;
-    border: 0;
+    background-color: $dark;
+    border-color: $light;
+    border-style: solid;
+    border-size: .2em;
+    border-bottom: none;
+    border-top-left-radius: $radius;
+    border-top-right-radius: $radius;
     font-family: $font;
     font-size: 2em;
-    padding: 1em;
+    padding: .75em;
+    color: $light;
 
+    &:active {
+      color: $accent;
+    }
 
     &--enquired {
-      background-color: $accent;
+      border-color: $accent;
     }
   }
+
   &__line {
 
   }
