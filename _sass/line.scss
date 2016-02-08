@@ -27,13 +27,14 @@
 
     &:before {
       content: '';
-      width: 100%;
-      height: .8em;
+      width: 1.2em;
+      height: 1em;
+      margin-right: .2em;
       display: block;
       float: left;
       background-size: contain;
       background-repeat: no-repeat;
-      background-position: right center
+      background-position: right bottom;
     }
   }
 }
