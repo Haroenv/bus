@@ -1,5 +1,5 @@
 {% for script in site.scripts %}
-  <script src='{{site.url}}{{script}}'></script>
+  <script src='{{site.baseurl}}{{script}}'></script>
 {% endfor %}
 {% unless site.development %}
   <script>

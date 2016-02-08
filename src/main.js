@@ -3,7 +3,7 @@
 ---
 
 var notification = document.createElement('audio');
-notification.src = '{{site.url}}/src/notification.mp3'
+notification.src = '{{site.baseurl}}/src/notification.mp3'
 
 var stopButton = document.getElementsByClassName('tracker__stop')[0];
 if (stopButton) {

@@ -5,12 +5,12 @@ author:
   twitter: '@haroenv'
 title: bus tracker
 description: a tracker for the location of a bus
-url: https://haroen.me/bus
-# url: http://localhost:4000
+url: https://haroen.me
+baseurl: /bus
 color: '#191f26'
 css: /src/style.css
 scripts: ['/src/main.js']
-favicon: src/favicon.png
+favicon: /src/favicon.png
 development: true
 analytics: UA-27277115-3
 sass:
