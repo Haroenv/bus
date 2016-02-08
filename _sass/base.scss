@@ -1,8 +1,11 @@
 html {
-  font-family: Din, sans-serif;
+  font-family: system, -apple-system, Roboto, sans-serif;
   background-color: $dark;
   color: $light;
   overflow: hidden;
+  &.din {
+    font-family: Din, system, -apple-system, Roboto, sans-serif;
+  }
 }
 
 a {
