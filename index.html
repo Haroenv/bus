@@ -3,12 +3,12 @@ layout: default
 ---
 
 <div class="stops">
-{% include line.html stop="Jernbantorget" connections="25=bus,R71=train,3=tram" %}
-{% include line.html stop="Aker Brygge" connections="10=bus,1=tram,2=boat" %}
-{% include line.html stop="A stop" connections="25=bus,3=tram,10=boat" %}
-{% include line.html stop="Jernbantorget" connections="25=bus,R71=train,3=tram" %}
-{% include line.html stop="Aker Brygge" connections="10=bus,1=tram,2=boat" %}
-{% include line.html stop="A stop" connections="25=bus,3=tram,10=boat" %}
+{% include line.html stop="Jernbantorget" connections="25 20 8=bus,R71=train,3=tram" %}
+{% include line.html stop="Aker Brygge" connections="10 1=bus,1=tram,2=boat" %}
+{% include line.html stop="A stop" connections="25=bus,3 1=tram,10=boat" %}
+{% include line.html stop="Jernbantorget" connections="2 20=bus,R71 R10=train,3=tram" %}
+{% include line.html stop="Aker Brygge" connections="1=bus,1=tram,2=boat" %}
+{% include line.html stop="A stop" connections="18 10=bus,3 5=tram,10=boat" %}
 </div>
 
 {% include tracker.html %}
