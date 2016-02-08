@@ -4,7 +4,11 @@
   flex-direction: column;
   max-width: 40rem;
 
-  p {
+  &__heading {
+    margin-bottom: 1em;
+  }
+
+  &__text {
     margin: 1em 0;
   }
 }

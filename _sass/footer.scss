@@ -1,12 +1,11 @@
-footer {
+.question {
   position: absolute;
   right: 0;
   bottom: 0;
   padding: .5em;
 
-  a {
-    color: $light;
-    font-weight: 600;
+  &__link {
+    font-weight: 700;
     text-decoration: none;
   }
 }
