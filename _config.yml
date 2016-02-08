@@ -10,7 +10,6 @@ baseurl: /bus
 color: '#191f26'
 css: /src/style.css
 scripts: ['/src/main.js']
-favicon: /src/favicon.png
 development: true
 analytics: UA-27277115-3
 sass:
