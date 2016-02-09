@@ -1,0 +1,12 @@
+- name: Jernbantorget
+  connections: '25 20 8=bus,R71=train,3=tram'
+- name: Aker Brygge
+  connections: '10 1=bus,1=tram,2=boat'
+- name: Arendalsgate
+  connections: '25=bus,3 1=tram,10=boat'
+- name: Jernbantorget
+  connections: '2 20=bus,R71 R10=train,3=tram'
+- name: Galgeberg
+  connections: '1=bus,1=tram,2=boat'
+- name: Tøyen
+  connections: '18 10=bus,3 5=tram,10=boat'
