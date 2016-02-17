@@ -4,7 +4,7 @@ A tracker for the location of a bus. Inspired by Oslo's buses, [ruter#](https://
 
 # Development
 
-For now this is simply done with [jekyll](https://jekyllrb.org), and deployed on [github pages](https://pages.github.com) at [haroen.me/bus](https://haroen.me/bus). To preview locally (default at `localhost:4000`), use
+For now this is simply done with [jekyll](http://jekyllrb.com), and deployed on [github pages](https://pages.github.com) at [haroen.me/bus](https://haroen.me/bus). To preview locally (default at `localhost:4000`), use
 
 ```sh
 jekyll serve
