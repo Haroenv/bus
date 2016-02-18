@@ -9,10 +9,17 @@
   height: calc(100vh - 6rem);
 
   &__item {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     p {
       font-size: 1.6em;
     }
+  }
+
+  &__divider {
+    border: 1px solid $light;
+    margin: 0;
   }
 }
 
