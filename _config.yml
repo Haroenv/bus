@@ -14,3 +14,5 @@ development: true
 analytics: UA-27277115-3
 sass:
   style: compressed
+gems:
+  - octopress-autoprefixer
