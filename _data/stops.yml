@@ -1,12 +1,18 @@
 - name: Jernbantorget
   connections: '25 20 8=bus,R71=train,3=tram'
+  until: 7 min
 - name: Aker Brygge
   connections: '10 1=bus,1=tram,2=boat'
+  until: 6 min
 - name: Arendalsgate
   connections: '25=bus,3 1=tram,10=boat'
+  until: 5 min
 - name: Jernbantorget
   connections: '2 20=bus,R71 R10=train,3=tram'
+  until: 4 min
 - name: Galgeberg
   connections: '1=bus,1=tram,2=boat'
+  until: 2 min
 - name: Tøyen
   connections: '18 10=bus,3 5=tram,10=boat'
+  until: now
