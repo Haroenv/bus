@@ -4,7 +4,10 @@ layout: default
 
 <div class="stops">
 {% for stop in site.data.stops %}
-  {% include line.html stop=stop.name connections=stop.connections %}
+  {% include line.html stop=stop.name connections=stop.connections until=stop.until %}
+  {% unless forloop.last %}
+    <hr class="stops__divider">
+  {% endunless %}
 {% endfor %}
 </div>
 
