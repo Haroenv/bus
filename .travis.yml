@@ -1,11 +1,14 @@
 language: ruby
+branches:
+    only:
+        - master
 env:
     global:
         # - secure: WKY98PaxxLPud88qStM4s5EY+w7gj9abYkirZXXECqyOE2tIOa5dB4/hQS413nn/i7NoYLWkWR2l7lLklW2bjl1aSFVvmAPEDdof28rgELsMIUQO2j1wD1eoxLFo1FQUhW+paZczc5qqz0yjFCw4XEVDmm/ymjUXKWqvDQB0ZORvw6Y4fFvzs1vC8x/ZvnEtSERCLBw8CLguJxRf88LNhHV+Un87IyI/w9fchLx39Xe3McNCy3AqywtS2alLjkcYF0NhqryBAhEMEhjgUItIDdz40e8vZpGO0eH0k0/G8sqMBoXJXieNxYUeYRvpyAqEil2EJbNf8EppooaVFpRUZgtnARe1cdFNO1pe3V+rTu2bwaBHoC1WJDa2rntcnVhCLf0LZrPFE1pWPVQYFlNaFd3WDD+mMM92iPg/S1+jrbNoWxcwWJU+np3LFClzqWKtzl0EE7nRxP1D4QXSXyRDj/EdojG1TksiqIoQIG7e0KMn/vFALlGDlAHuUFpmaOYTLJ7ngElm8Dq2OVhojbCyecJXGhsB2RAgYyDO5ofsQP/8DfFxQ9MfElFBlcx8TrIzyg+N8uJe/2tY8Ti1kPGoMDeQQnr/dFuvYJYMU7CTeiPKkUvbOby7HdJYUEl8DMe20gqBOwVJMDmGy9e1R+NNeUb1JU8lZ6yeATrG9SGVzGs=
         - GH_OWNER=Haroenv
         - GH_PROJECT_NAME=bus
-before_script:
-    # - bundle install
+install:
+    - bundle install
 script:
     - jekyll build
 after_success:
