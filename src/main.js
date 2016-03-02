@@ -1,6 +1,3 @@
----
-#comment for Jekyll
----
 // font face observer
 // https://github.com/bramstein/fontfaceobserver
 (function() {
