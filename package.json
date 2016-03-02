@@ -1,0 +1,15 @@
+{
+  "name": "bus",
+  "version": "0.1.0",
+  "description": "A tracker for a bus (hypothetical)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haroenv/bus.git"
+  },
+  "author": "Haroen Viaene <hello@haroen.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Haroenv/bus/issues"
+  },
+  "homepage": "https://haroen.me/bus"
+}
