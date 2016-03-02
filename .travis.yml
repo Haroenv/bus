@@ -5,6 +5,7 @@ env:
         - GH_OWNER=Haroenv
         - GH_PROJECT_NAME=bus
 script:
+    # - gem install
     - jekyll build
 after_success:
     # Any command that using GH_OAUTH_TOKEN must pipe the output to /dev/null to not expose your oauth token
@@ -12,8 +13,8 @@ after_success:
     - cd site
     - if git checkout gh-pages; then git checkout -b gh-pages; fi
     - git rm -r .
-    - cp -R ../dist/* .
-    - cp ../dist/.* .
+    - cp -R ../_site/* .
+    - cp ../_site/.* .
     - git add -f .
     - git config user.email "hello@haroen.me"
     - git config user.name "Haroen Viaene (bot)"
