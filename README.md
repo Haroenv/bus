@@ -32,7 +32,7 @@ In case you don't have Ruby/gem refer to [these](http://guides.rubygems.org/ruby
 
 ## deploying
 
-Deploying is done to github pages with [travis](https://travis-ci.org).
+Deploying is done to github pages with [travis](https://travis-ci.org). [![Build Status](https://travis-ci.org/Haroenv/bus.svg?branch=master)](https://travis-ci.org/Haroenv/bus)
 
 # License
 
